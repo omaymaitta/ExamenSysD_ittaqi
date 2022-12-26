@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Radar-microservice" />
+        <module name="common-api" />
+        <module name="Eureka-service" />
+        <module name="Immatriculation-microservice" />
+        <module name="Fraction-microservice" />
+        <module name="Gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-api" target="1.8" />
+      <module name="Eureka-service" target="1.8" />
+      <module name="Fraction-microservice" target="1.8" />
+      <module name="Gateway" target="1.8" />
+      <module name="Immatriculation-microservice" target="1.8" />
+      <module name="Radar-microservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka-service" options="-parameters" />
+      <module name="Fraction-microservice" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Immatriculation-microservice" options="-parameters" />
+      <module name="Radar-microservice" options="-parameters" />
+      <module name="common-api" options="-parameters" />
+    </option>
+  </component>
+</project>
