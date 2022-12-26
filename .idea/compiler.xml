@@ -9,27 +9,32 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Radar-microservice" />
         <module name="common-api" />
-        <module name="Eureka-service" />
-        <module name="Immatriculation-microservice" />
+        <module name="Customer-service" />
         <module name="Fraction-microservice" />
         <module name="Gateway" />
+        <module name="Eureka-service" />
+        <module name="Immatriculation-microservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-api" target="1.8" />
+      <module name="Customer-service" target="1.8" />
       <module name="Eureka-service" target="1.8" />
       <module name="Fraction-microservice" target="1.8" />
       <module name="Gateway" target="1.8" />
       <module name="Immatriculation-microservice" target="1.8" />
+      <module name="Inventory-service" target="1.8" />
       <module name="Radar-microservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Customer-service" options="-parameters" />
       <module name="Eureka-service" options="-parameters" />
       <module name="Fraction-microservice" options="-parameters" />
       <module name="Gateway" options="-parameters" />
       <module name="Immatriculation-microservice" options="-parameters" />
+      <module name="Inventory-service" options="-parameters" />
       <module name="Radar-microservice" options="-parameters" />
       <module name="common-api" options="-parameters" />
     </option>

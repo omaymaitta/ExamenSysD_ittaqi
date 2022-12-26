@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Customer-service/Customer-service.iml" filepath="$PROJECT_DIR$/Customer-service/Customer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka-service/Eureka-service.iml" filepath="$PROJECT_DIR$/Eureka-service/Eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/EventSourcingCQRS-infractions.iml" filepath="$PROJECT_DIR$/.idea/EventSourcingCQRS-infractions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fraction-microservice/Fraction-microservice.iml" filepath="$PROJECT_DIR$/Fraction-microservice/Fraction-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/Immatriculation-microservice/Immatriculation-microservice.iml" filepath="$PROJECT_DIR$/Immatriculation-microservice/Immatriculation-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inventory-service/Inventory-service.iml" filepath="$PROJECT_DIR$/Inventory-service/Inventory-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Radar-microservice/Radar-microservice.iml" filepath="$PROJECT_DIR$/Radar-microservice/Radar-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
     </modules>
